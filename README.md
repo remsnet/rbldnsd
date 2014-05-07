@@ -2,7 +2,7 @@ License : GPLv2
 
 This forked by origin https://github.com/mavam/rbldnsd from http://www.corpit.ru/mjt/rbldnsd.html
 
-Current version ; 0.997a<br>
+Current version : 0.997a<br>
 Project Scope : RPMBUILD
 
  Reason for this fork : most recent RPM released  are outdated <br>
