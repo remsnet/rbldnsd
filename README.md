@@ -1,29 +1,14 @@
-This enhanced version of [rbldnsd](http://www.corpit.ru/mjt/rbldnsd.html)
-provides enhanced logging features:
+License : GPLv2
 
-- IP address anonymization (via SHA256 hashing)
-- GeoIP lookup of client IP addresses
-- Contents of the reply RR
+This forked by origin by mavam/rbldnsd  from [rbldnsd](http://www.corpit.ru/mjt/rbldnsd.html)
+Current version ; 0.997a
 
-Note that this version rbldnsd uses a tab character (`\t`) to separate the log
-fields, since the new GeoIP fields may contain spaces.
+Project Scope : RPMBUILD Project .
 
-Installation
-============
 
-The installation procedure is the same as with the stock version of rbldnsd:
+Reason for this fork : most recent RPM released  are outdated 
+corbit.ru seems don´t provide or support RPMs at all at current.
 
-    ./configure && make && make install
 
-Additionaly, the configure script supports the options `anonymize` and `geoip`.
-Anonymization requires OpenSSL and GeoIP lookups require libGeoIP. If your
-system provides these dependencies, these options are automatically enabled.
-
-Usage
-=====
-
-The new features require explicit activation on the command line:
-
-- `-z`: enable IP address anonymization
-- `-g`: enable GeoIP lookups
-- `-L`: enables logging of answer details the logfile
+...  run rbldnsd for more then 12 Years, do frequetly package it - based on FREE BL data providers. 
+Feel free to use and contribute .
