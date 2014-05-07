@@ -1,6 +1,6 @@
 License : GPLv2
 
-This forked by origin by mavam/rbldnsd  from [rbldnsd](http://www.corpit.ru/mjt/rbldnsd.html)
+This forked by origin https://github.com/mavam/rbldnsd from http://www.corpit.ru/mjt/rbldnsd.html
 Current version ; 0.997a
 
 Project Scope : RPMBUILD Project .
